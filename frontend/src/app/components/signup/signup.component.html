@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <div class="card" style="width: 24rem;">
+                <img src="../../../assets/image/image 2.png" height="250"  class="card-img-top" alt="...">
+           
+            <div class="card-body">
+                <h5 class="card-title text-center">Sign up</h5>
+                <form (submit)="signUp()">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="Nickname">Nickname</label>
+                                <input id="Nickname" [(ngModel)]="user.user" class="form-control" type="text" name="nickname" placeholder="Nickname">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="Fullname">Full Name</label>
+                                <input id="Fullname" [(ngModel)]="user.name" class="form-control" type="text" name="Fullname" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="Email">Email Address</label>
+                                <input id="Email" [(ngModel)]="user.email" class="form-control" type="email" name="Email" placeholder="Email Address">
+                            </div>
+                        </div>
+    
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input id="Password" [(ngModel)]="user.password" class="form-control" type="password" name="Password" placeholder="Passwordd">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button class="btn-auth-form" type="submit">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

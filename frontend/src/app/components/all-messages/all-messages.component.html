@@ -1,0 +1,36 @@
+<!-- <ul class="list-group"> 
+  <li class="list-group-item" *ngFor="let message of messages">
+    {{message.title}} - {{message.message}} 
+  </li>
+</ul> -->
+<div class="container">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="form-group">
+        <label for="date">Date select</label>
+        <input id="date" class="form-control" type="date" name="">
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-4 col-12" *ngFor="let message of messages">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body card-custom">
+          <h5 class="card-title">{{message.title}}</h5>
+          <p class="card-description">{{message.message}}</p>
+          <div class="d-flex justify-content-evenly card-custom-footer">
+            <a href="#" class="card-date">{{message.updatedAt}}</a>
+            <a href="#" class="card-user">Another link</a>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card-custom">
+        <h1 class="card-title">{{message.title}}</h1>
+        <p class="card-description">{{message.message}}</p>
+      </div> -->
+    </div>
+  </div>
+</div>

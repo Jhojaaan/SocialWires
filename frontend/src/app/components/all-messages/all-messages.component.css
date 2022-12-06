@@ -1,0 +1,41 @@
+*{
+    background-color: rgba(22,32,42,255);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(249,253,109,255);
+}
+
+.card-custom{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+}
+
+.card-title{
+    padding: 10px;
+    background-color: #d9d9d9;
+    color: rgba(22,32,42,255);
+    font-size: 18px;
+}
+
+.card-description{
+    background-color: #d9d9d9;
+    padding: 5px 10px;
+    color: rgba(22,32,42,255);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.form-group>input{
+    margin: 10px 0px;
+}
+
+.card-date{
+    background-color: #d9d9d9;
+}
+
+.card-user{
+    background-color: #d9d9d9;
+}
+
+.card-custom-footer{
+    background-color: #d9d9d9;
+}

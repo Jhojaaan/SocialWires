@@ -1,0 +1,35 @@
+.navbar-brand{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: aliceblue;
+}
+*{
+    background-color: rgba(22,32,42,255);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(249,253,109,255);
+}
+
+
+@media (max-width: 990px){
+
+    a.nav-link{
+        background-color: rgba(243,245,249,255) !important;
+        color: rgba(22,32,42,255);
+        padding: 10px;
+    }
+    a.nav-link:hover{
+        background-color: #f9fd6d !important;
+        
+    }
+
+    .navbar-nav{
+        border-radius: 15px;
+    }
+    
+}
+

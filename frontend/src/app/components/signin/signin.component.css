@@ -1,0 +1,38 @@
+.btn-auth-form{
+    border-radius: 20px;
+    background-color: gray;
+    border: none;
+    color: rgb(12, 7, 37);
+    font-size: 14px;
+    font-family: 'Roboto', italic;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    margin: 4px 2px;
+    width: 80%;
+    font-size: 20px;
+}
+
+*{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(221, 233, 51);
+}
+
+.form-control{
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+label{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    margin-top: 40px;
+}
